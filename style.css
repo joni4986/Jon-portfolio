@@ -283,3 +283,25 @@ footer p{
 .contact-card a:hover{
     text-decoration: underline;
 }
+
+.project-buttons{
+    display:flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.project-btn{
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.disabled-btn{
+    border: 1px solid #475569;
+    color: #94e3b8;
+    cursor: not-allowed;
+}
