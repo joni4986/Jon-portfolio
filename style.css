@@ -319,3 +319,25 @@ footer p{
     border: 1px solid #38bdf8;
     color: #020602;
 }
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.project-links a,
+.project-links a:visited {
+  display: inline-block;
+  padding: 12px 22px;
+  border: 1px solid #4a5f7a;
+  border-radius: 8px;
+  color: #64ffda;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-links a:hover {
+  background-color: #22b8f0;
+  color: #000;
+}
